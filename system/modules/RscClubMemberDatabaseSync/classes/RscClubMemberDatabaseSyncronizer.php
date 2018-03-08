@@ -33,6 +33,7 @@ class RscClubMemberDatabaseSyncronizer extends \Controller
       $objCount = $db->prepare("SELECT COUNT(id) count FROM tl_member WHERE id = ?")->execute($objResultExternal->id)->count;
       
       $arrData = array(
+        'tstamp' => time(),
         'firstname' => $objResultExternal->firstname,
         'lastname' => $objResultExternal->lastname,
         'dateOfBirth' => $objResultExternal->dateOfBirth,
