@@ -25,8 +25,7 @@ https://github.com/rsclg/RscClubMemberDatabaseSync/issues
 Compatibility
 -------------
 
-- min. Contao version: >= 3.2.0
-- max. Contao version: <  3.6.0
+- Contao version: = 2.9.5
 
 
 Dependency
